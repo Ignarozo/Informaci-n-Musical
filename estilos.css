@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&display=swap');
+
+h1 {
+    font-family: "reddit sans condensed", sans-serif;
+    font-size: 65px;
+    color: rgba(209, 26, 200, 0.541);
+}
+
+body {
+    font-family: "reddit sans condensed", "sans-serif";
+    background-image: url(imagenes/fondo-musica.jpg);
+    text-align: center;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 100px;
+}
+
+header img {
+    height: 50px;
+    float: right;
+}
+
+
+.logo {
+    float: left;
+    height: 100px;
+}
+
+/*.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto o;
+    gap: 10px;
+    grid-template-areas:
+        'header header header'
+        'menu main main';
+    background-color: #1e82d4;
+}
+
+.grid-container>div {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 40px;
+}
+*/
+.principal {
+    display: grid;
+    grid-template-columns:
+        auto auto auto;
+    background-color: blue;
+    font-size: 100px;
+
+}
+
+.principal button {
+    background-color: blue;
+    padding: 15px;
+    color: white;
+}
+
+nav {
+    margin: 10px;
+    padding: 10px;
+}
+
+nav a {
+    font-size: 20px;
+    padding: 10px;
+    margin: 15px;
+}
+
+nav a:link,
+nav a:visited {
+    text-decoration: none;
+
+    color: white;
+    background-color: blue;
+}
+
+#Seguidos {
+    display: none;
+}
+
+#Tendencias {
+    display: none;
+}
+
+#Seguidos img {
+    float: left;
+    width: 100px;
+}

@@ -1,26 +1,55 @@
 <!DOCTYPE html>
+<html lang="es">
+
 <head>
     <title>Informacion Musical</title>
+    <link href="estilos.css" type="text/css" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
+
 <body>
     <header>
-    <img src="imagenes/logo-musica.webp" alt="logo">
-    <img src="imagenes/cuenta-user.png">
-    <img src="imagenes/home-principal.webp">
-
-    <h1>Todo Musica</h1> 
+        <img src="imagenes/logo-musica.webp" alt="logo" class="logo">
+        <img src="imagenes/home-principal.webp">
+        <img src="imagenes/cuenta-user.png">
+        <img src="imagenes/configuracion-settings.png">
+        <img src="imagenes/ayuda-help.png">
+        <h1>Todo Musica</h1>
     </header>
-    <nav>
-        Princial
-            Seguidos
-            Tendencias
-    </nav>
+
     <main>
+        <section class="principal">
+            <button type="button" onclick="mostrarPrincipal()"> Principal</button>
+            <button type="button" onclick="mostrarSeguidos()">Seguidos</button>
+            <button type="button" onclick="mostrarTendencias()">Tendencias</button>
+        </section>
         <section>
-            <a href="NOVEDADES.html">NOVEDADES SEMANALES</a>
-            FAVORITOS DEL PUBLICO
-            MEJOR VLAORADOS
+            <div id="Principal" class="cont-Principal">
+                <nav>
+                    <a href="NOVEDADES.html">NOVEDADES SEMANALES</a>
+                    <br>
+                    <a href="FAVORITOS DEL PUBLICO.html">FAVORITOS DEL PUBLICO</a>
+                    <br>
+                    <a href="MEJOR VALORADOS.html">MEJOR VALORADOS</a>
+                </nav>
+            </div>
+            <div id="Seguidos" class="cont-Principal">
+                <img src="imagenes/travis-profile.jpg">
+                <br>
+                <img src="imagenes/tyler, the creator-profile.jpg">
+                <br>
+                <img src="imagenes/linkin park-profile.jpeg">
+                <br>
+                <img src="imagenes/rage against the machine-profile.webp">
+            </div>
+            <div id="Tendencias" class="cont-Principal">
+
+                ejemplo tendencias
+            </div>
         </section>
     </main>
-    
-</body>        
+
+</body>
+
+
+</html>
