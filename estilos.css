@@ -91,14 +91,12 @@ nav a:visited {
 
 #Principal {
     float: left;
-    width: 150px;
 }
 
 .noticia {
-    background-color: rgba(129, 127, 255, 0.74);
+    background-color: rgba(248, 247, 247, 0.801);
     float: left;
     font-size: 16px;
     width: 100%;
+    color: rgb(0, 0, 0)
 }
-
-.parrafo
